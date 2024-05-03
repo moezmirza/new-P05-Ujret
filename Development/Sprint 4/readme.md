@@ -1,7 +1,8 @@
 # Ujret Mobile Application - Sprint 4
 
-- Build APK of Sprint 4 can be accessed from here [Sprint4_apk]() 
+- Build APK of Sprint 4 can be accessed from here [Sprint4_apk](https://drive.google.com/file/d/1jpODb8AjX9qQ3Z7fdhiJEAYfMXDjw966/view?usp=sharing) 
 - Demo video of sprint-4 can be accessed from here [Sprint4_Demo-video]()
+Please Note that the backend will not restart until a call is manually made on this endpoint [https://ujret-backend-node.onrender.com/api/v1](https://ujret-backend-node.onrender.com/api/v1); that's because the backend is deployed on Render free service, which requires a call to start it. Else backend takes 40-50 seconds to start on free service of render.
 
 ## Welcome to the repository for the Ujret Mobile Application. This document provides an overview of the project progress, setup instructions, and additional information.
 
