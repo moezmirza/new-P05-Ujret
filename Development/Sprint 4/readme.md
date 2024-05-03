@@ -1,7 +1,7 @@
 # Ujret Mobile Application - Sprint 4
 
 - Build APK of Sprint 4 can be accessed from here [Sprint4_apk](https://drive.google.com/file/d/1-HjsBnLsIZtQ-EUvEeRBBMOT9dcPNVPo/view?usp=sharing) 
-- Demo video of sprint 4 can be accessed from here [Sprint4_Demo-video](https://drive.google.com/file/d/1dXOEqxaMrzDU_S0XrD1OYqb-hW4IqxX_/view?usp=sharing)
+- Demo video of sprint 4 can be accessed from here [Sprint4_Demo-video](https://drive.google.com/file/d/1QWo8N7bMW0Dmq0c77F0RcBBNEBmflOSW/view?usp=sharing)
 
 Please Note the following details before Accessing Apk
 - The app app needs an active internet connection on the device to run smoothly.
