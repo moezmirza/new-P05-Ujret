@@ -1,7 +1,7 @@
 # Ujret Mobile Application - Sprint 3
 
-- Build APK of Sprint 3 can be accessed from here [Sprint3_apk](https://drive.google.com/file/d/1J4AoIEJN8IfSzJAhJOkbVdRNtOP_TEIo/view?usp=sharing) 
-- Demo video of sprint-3 can be accessed from here [Sprint3_Demo-video](https://drive.google.com/file/d/1J4AoIEJN8IfSzJAhJOkbVdRNtOP_TEIo/view?usp=sharing)
+- Build APK of Sprint 3 can be accessed from here [Sprint3_apk](https://drive.google.com/file/d/1SckVFuCBaBSO7WeeKYl8fLE_JNeW1mjw/view?usp=sharing) 
+- Demo video of sprint-3 can be accessed from here [Sprint3_Demo-video](https://drive.google.com/file/d/1dXOEqxaMrzDU_S0XrD1OYqb-hW4IqxX_/view?usp=sharing)
 
 Please Note the following details before Accessing Apk
 - The app app needs an active internet connection on the device to run smoothly.
@@ -134,7 +134,7 @@ Malik Muhammad Moaz 24100163@lums.edu.pk
 
 ### A) Install APK File
 
-- You can get the APK file here [Sprint3_apk](https://drive.google.com/file/d/1J4AoIEJN8IfSzJAhJOkbVdRNtOP_TEIo/view?usp=sharing) 
+- You can get the APK file here [Sprint3_apk](https://drive.google.com/file/d/1SckVFuCBaBSO7WeeKYl8fLE_JNeW1mjw/view?usp=sharing) 
 - Node Backend is Deployed on Render deployed server link [https://ujret-backend-node.onrender.com/api/v1](https://ujret-backend-node.onrender.com/api/v1) 
 Note that the backend may take 45-50s to start on the first call after being inactive for a day. That's Because Backend is currently deployed on free version of Render ![image](https://github.com/talha-husnain/P05-Ujret_Mobile_App/assets/88245647/5e4b9434-af73-4956-b266-b8c8bab9e4be)
 - Flask Backend is also Accessible here [https://ujret-python-api.onrender.com/api/v1](https://ujret-python-api.onrender.com/api/v1).
