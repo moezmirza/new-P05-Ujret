@@ -8,12 +8,12 @@ Please Note the following details before Accessing Apk
 - The backend will not restart auto if backend is inactive for 24+ hours, in that case a call should be manually made on this endpoint [https://ujret-backend-node.onrender.com/api/v1](https://ujret-backend-node.onrender.com/api/v1) to start server, that's because the backend is deployed on Render free service, which requires a call to start it. If a manual call is not made, the backend takes 40-50 seconds to start on the free service of render which in case delays loading on app slash screen.
 - To login to Test Users, you can access system through any of the given creds. 
 
-1) +923099126977
-browniangamer@gmail.com 
-Test@123
-2) +923096809637
-jahanzaibkhursheed2002@gmail.com
-Test@123
+   1) +923099126977
+   browniangamer@gmail.com 
+   Test@123
+   2) +923096809637
+   jahanzaibkhursheed2002@gmail.com
+   Test@123
 
 ## Welcome to the repository for the Ujret Mobile Application. This document provides an overview of the project progress, setup instructions, and additional information.
 
