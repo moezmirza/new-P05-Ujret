@@ -147,7 +147,7 @@ Note: Make sure you have completed the React Native - Environment Setup instruct
 ###### Go to the Frontend directory
 
 ```bash
-  cd Front_End_React_Native
+  cd Ujret-Frontend-ReactNative
 ```
 
 ##### Step 1: Start the Metro Server
@@ -233,7 +233,7 @@ Note: Make sure you have completed the Environment Setup, before proceeding.
 - Go to the backend directory
 
 ```bash
-  cd backend
+  cd Ujret-Backend-Flask
 ```
 
 #### Database Setup
