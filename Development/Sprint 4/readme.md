@@ -126,7 +126,7 @@ Note: Make sure you have completed the React Native - Environment Setup instruct
 ###### Go to the Frontend directory
 
 ```bash
-  cd Front_End_React_Native
+  cd Ujret-Frontend-ReactNative
 ```
 
 ##### Step 1: Start the Metro Server
@@ -184,6 +184,7 @@ If everything is set up correctly, you should see your new app running in your A
 This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
 
 ### (2) Run Node Backend Locally
+First, Copy env from [here](https://drive.google.com/file/d/1ItTW_Pw-x1zbPix6rG_ntZJ0IJ--SqWk/view?usp=sharing), and paste it in Sprint 3/Ujret-Backend-Node folder and then follow the steps below.
 
 ###### Run these commands one by one in the Node backend main Directory
 
@@ -211,7 +212,7 @@ Note: Make sure you have completed the Environment Setup, before proceeding.
 - Go to the backend directory
 
 ```bash
-  cd backend
+  cd Ujret-Backend-Flask
 ```
 
 #### Database Setup
