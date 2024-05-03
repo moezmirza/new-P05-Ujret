@@ -1,9 +1,19 @@
-# Ujret Mobile Application - Sprint 4
+# Ujret Mobile Application - Sprint 3
 
-- Build APK of Sprint 4 can be accessed from here [Sprint4_apk](https://drive.google.com/file/d/1jpODb8AjX9qQ3Z7fdhiJEAYfMXDjw966/view?usp=sharing) 
-- Demo video of sprint-4 can be accessed from here [Sprint4_Demo-video]()
+- Build APK of Sprint 3 can be accessed from here [Sprint3_apk](https://drive.google.com/file/d/1SckVFuCBaBSO7WeeKYl8fLE_JNeW1mjw/view?usp=sharing) 
+- Demo video of sprint-3 can be accessed from here [Sprint3_Demo-video](https://drive.google.com/file/d/1dXOEqxaMrzDU_S0XrD1OYqb-hW4IqxX_/view?usp=sharing)
 
-Please Note that the backend will not restart until a call is manually made on this endpoint [https://ujret-backend-node.onrender.com/api/v1](https://ujret-backend-node.onrender.com/api/v1); that's because the backend is deployed on Render free service, which requires a call to start it. Else backend takes 40-50 seconds to start on free service of render.
+Please Note the following details before Accessing Apk
+- The app app needs an active internet connection on the device to run smoothly.
+- The backend will not restart auto if backend is inactive for 24+ hours, in that case a call should be manually made on this endpoint [https://ujret-backend-node.onrender.com/api/v1](https://ujret-backend-node.onrender.com/api/v1) to start server, that's because the backend is deployed on Render free service, which requires a call to start it. If a manual call is not made, the backend takes 40-50 seconds to start on the free service of render which in case delays loading on app slash screen.
+- To login to Test Users, you can access system through any of the given creds. 
+
+   1) +923099126977
+   browniangamer@gmail.com 
+   Test@123
+   2) +923096809637
+   jahanzaibkhursheed2002@gmail.com
+   Test@123
 
 ## Welcome to the repository for the Ujret Mobile Application. This document provides an overview of the project progress, setup instructions, and additional information.
 
@@ -103,7 +113,7 @@ Malik Muhammad Moaz 24100163@lums.edu.pk
 
 ### A) Install APK File
 
-- You can get the APK file here [Sprint4_apk]() 
+- You can get the APK file here [Sprint3_apk](https://drive.google.com/file/d/1SckVFuCBaBSO7WeeKYl8fLE_JNeW1mjw/view?usp=sharing) 
 - Node Backend is Deployed on Render deployed server link [https://ujret-backend-node.onrender.com/api/v1](https://ujret-backend-node.onrender.com/api/v1) 
 Note that the backend may take 45-50s to start on the first call after being inactive for a day. That's Because Backend is currently deployed on free version of Render ![image](https://github.com/talha-husnain/P05-Ujret_Mobile_App/assets/88245647/5e4b9434-af73-4956-b266-b8c8bab9e4be)
 - Flask Backend is also Accessible here [https://ujret-python-api.onrender.com/api/v1](https://ujret-python-api.onrender.com/api/v1).
@@ -117,7 +127,6 @@ You can directly run the code (Frontend on android emulator) and (backend on pow
 
 1. **Run Frontend Locally**
 2. **Run Node Backend Locally**
-3. **Run Flask Backend Locally**
 
 ### (1) Run Frontend Locally
 
@@ -195,66 +204,4 @@ First, Copy env from [here](https://drive.google.com/file/d/1ItTW_Pw-x1zbPix6rG_
 ```
 ```bash
   node index.js
-```
-
-### (3) Run Flask Backend Locally
-
-#### Getting Started
-
-Note: Make sure you have completed the Environment Setup, before proceeding.
-
-- Environment Setup
-  Install Postgres Sql Locally, setup its database
-  Install Datagrip to access databases because its accessible, create a project on datagrip using postgres sql as database.
-  Go to the backend/db/migrations/0-1.sql, copy the sql and paste it on new create project's console on datagrip
-  Run the Sql on console and the setup is done
-
-- To run backend follow the following steps.
-
-- Go to the backend directory
-
-```bash
-  cd Ujret-Backend-Flask
-```
-
-#### Database Setup
-
-- Add environment variables (get credentials from datagrip, rename file to .env)
-
-```bash
-DB_HOST=
-DB_NAME=
-DB_USER=
-DB_PASSWORD=
-DB_PORT=
-DB_CONNECT_TIMEOUT=
-```
-
-- Run SQL in DataGrip console (copy, paste and run)
-
-```text
-0-1.sql
-```
-
-#### Running Flask Server
-
-- Set up and activate virtual environment (optional)
-
-```bash
-  python3 -m venv venv
-  source venv/bin/activate
-```
-
-- Install dependencies
-
-```bash
-  cd backend
-  pip install -r requirements.txt
-```
-
-- Start the server
-
-```bash
-  // from backend directory
-  flask --app core.api.api  --debug run
 ```
