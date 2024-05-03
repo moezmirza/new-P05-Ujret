@@ -1,3 +1,5 @@
+create a json file naned firebase-credentials.json and paste the belw things
+
 {
   "type": "service_account",
   "project_id": "ujret-18361",
