@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "838009851461",
+    "project_id": "ujret-18361",
+    "storage_bucket": "ujret-18361.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:838009851461:android:54d74f025aca207aca5d2c",
+        "android_client_info": {
+          "package_name": "com.ujretappfrontend"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2DqK7vWNPgwPjveWvesmsDm8k4IWxEAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
