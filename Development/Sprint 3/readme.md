@@ -3,7 +3,9 @@
 - Build APK of Sprint 3 can be accessed from here [Sprint3_apk](https://drive.google.com/file/d/1J4AoIEJN8IfSzJAhJOkbVdRNtOP_TEIo/view?usp=sharing) 
 - Demo video of sprint-3 can be accessed from here [Sprint3_Demo-video](https://drive.google.com/file/d/1J4AoIEJN8IfSzJAhJOkbVdRNtOP_TEIo/view?usp=sharing)
 
-Please Note that the backend will not restart until a call is manually made on this endpoint [https://ujret-backend-node.onrender.com/api/v1](https://ujret-backend-node.onrender.com/api/v1); that's because the backend is deployed on Render free service, which requires a call to start it. Else backend takes 40-50 seconds to start on free service of render.
+Please Note the following details before Accessing Apk
+- The backend will not restart until a call is manually made on this endpoint [https://ujret-backend-node.onrender.com/api/v1](https://ujret-backend-node.onrender.com/api/v1); that's because the backend is deployed on Render free service, which requires a call to start it. Else backend takes 40-50 seconds to start on free service of render.
+- 
 
 ## Welcome to the repository for the Ujret Mobile Application. This document provides an overview of the project progress, setup instructions, and additional information.
 
