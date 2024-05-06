@@ -1,9 +1,19 @@
-# Ujret Mobile Application - Sprint 4
+# Ujret Mobile Application - Final Deliverable
 
-- Build APK of Sprint 4 can be accessed from here [Sprint4_apk](https://drive.google.com/file/d/1jpODb8AjX9qQ3Z7fdhiJEAYfMXDjw966/view?usp=sharing) 
-- Demo video of sprint-4 can be accessed from here [Sprint4_Demo-video]()
+- Build APK of Final Deliverable can be accessed from here [Final Deliverable apk](https://drive.google.com/file/d/1VN2dFvP0AojpOo0y8K1xvip8pl7WWsrG/view?usp=sharing) 
+- Demo video of Final Deliverable can be accessed from here [Final Deliverable_Demo-video](https://drive.google.com/file/d/1wZwHuMvux1pnQKr3MGd7NUQNPQFSz6ko/view?usp=sharing)
 
-Please Note that the backend will not restart until a call is manually made on this endpoint [https://ujret-backend-node.onrender.com/api/v1](https://ujret-backend-node.onrender.com/api/v1); that's because the backend is deployed on Render free service, which requires a call to start it. Else backend takes 40-50 seconds to start on free service of render.
+Please Note the following details before Accessing Apk
+- The app app needs an active internet connection on the device to run smoothly.
+- The backend will not restart auto if backend is inactive for 24+ hours, in that case a call should be manually made on this endpoint [https://ujret-backend-node.onrender.com/api/v1](https://ujret-backend-node.onrender.com/api/v1) to start server, that's because the backend is deployed on Render free service, which requires a call to start it. If a manual call is not made, the backend takes 40-50 seconds to start on the free service of render which in case delays loading on app slash screen.
+- To login to Test Users, you can access system through any of the given creds. 
+
+   1) +923099126977
+   browniangamer@gmail.com 
+   Test@123
+   2) +923096809637
+   jahanzaibkhursheed2002@gmail.com
+   Test@123
 
 ## Welcome to the repository for the Ujret Mobile Application. This document provides an overview of the project progress, setup instructions, and additional information.
 
@@ -18,19 +28,23 @@ Malik Muhammad Moaz 24100163@lums.edu.pk
 
 ## Project Details
 
-### Project Completed in Sprint4
+### Project Completed in Final Deliverable
 
 1. **List of Requirements Completed**
 
-   - **Service Seeker side**
-     - Viewing Task History
-     - Interact With Tasks to continue Getting Bids
-   - **Service Provider side**
-     - Viewing Task History
+   - **Renting Module**
+     - Post A tool
+     - Update tool info
+     - Delete Tool
+     - View Tools List
+     - View Tool Details
+     - Update Availablity 
 
 2. **List of Use Cases Completed**
 
-   1. Task History and Interactions
+   1. Post Tool
+   2. Update Tool
+   3. View Tools List
 
 ### Project Completed So Far
 
@@ -67,6 +81,13 @@ Malik Muhammad Moaz 24100163@lums.edu.pk
      - Tracking Task Status
      - Task Completion
      - Task History and Interaction
+   - **Renting Module**
+     - Post A tool
+     - Update tool info
+     - Delete Tool
+     - View Tools List
+     - View Tool Details
+     - Update Availablity 
 
 2. **List of Use Cases, Including Those in the Previous Sprints**
 
@@ -79,23 +100,21 @@ Malik Muhammad Moaz 24100163@lums.edu.pk
    8. Task Flow/Tracking from Service Seeker/Client side
    9. Task Flow/Tracking from Service Provider/Tasker side
    10. Task History and Interaction
+   11. Post Tool
+   12. Update Tool
+   13. View Tools List
 
 3. **Design UI Prototype on Figma**
 
    - **Prototype Can be accessed here**
      - [Figma Prototype](https://www.figma.com/proto/AveFswFASVByStuKrw1SX2/Ujret-Draft-To-Share?type=design&node-id=1-2634&t=QL6TFcsitksdl5Ir-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2634)
 
-### Project Backlog
+### Project That Can be Done In Future
 
 1. **List of UseCases**
 
-   - **Renting Module**
-     - Post A tool
-     - Update tool info
-     - Delete Tool
-     - View Tools List
-     - View Tool Details
-     - Update Availablity 
+   - **Carpooling Module**
+   - **Freelancing Module** 
 
 ---
 
@@ -103,7 +122,7 @@ Malik Muhammad Moaz 24100163@lums.edu.pk
 
 ### A) Install APK File
 
-- You can get the APK file here [Sprint4_apk]() 
+- You can get the APK file here [Final Deliverable_apk](https://drive.google.com/file/d/1VN2dFvP0AojpOo0y8K1xvip8pl7WWsrG/view?usp=sharing) 
 - Node Backend is Deployed on Render deployed server link [https://ujret-backend-node.onrender.com/api/v1](https://ujret-backend-node.onrender.com/api/v1) 
 Note that the backend may take 45-50s to start on the first call after being inactive for a day. That's Because Backend is currently deployed on free version of Render ![image](https://github.com/talha-husnain/P05-Ujret_Mobile_App/assets/88245647/5e4b9434-af73-4956-b266-b8c8bab9e4be)
 - Flask Backend is also Accessible here [https://ujret-python-api.onrender.com/api/v1](https://ujret-python-api.onrender.com/api/v1).
@@ -111,13 +130,12 @@ Note that the backend may take 45-50s to start on the first call after being ina
 
 ### B) Run Code Locally
 
-You can directly run the code (Frontend on android emulator) and (backend on powershell). Details are given below
+You can directly run the code (Frontend on Android emulator) and (backend on Powershell). Details are given below.
 
 #### How To Access the System Locally
 
 1. **Run Frontend Locally**
 2. **Run Node Backend Locally**
-3. **Run Flask Backend Locally**
 
 ### (1) Run Frontend Locally
 
@@ -181,12 +199,12 @@ Let Metro Bundler run in its own terminal. Open a new terminal from the root of 
   yarn ios
 ```
 
-If everything is set up correctly, you should see your new app running in your Android Emulator or iOS Simulator shortly provided you have set up your emulator/simulator correctly.
+If everything is set up correctly, you should see your new app running in your Android Emulator or iOS Simulator shortly, provided you have set up your emulator/simulator correctly.
 
 This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
 
 ### (2) Run Node Backend Locally
-First, Copy env from [here](https://drive.google.com/file/d/1ItTW_Pw-x1zbPix6rG_ntZJ0IJ--SqWk/view?usp=sharing), and paste it in Sprint 3/Ujret-Backend-Node folder and then follow the steps below.
+First, Copy env from [here](https://drive.google.com/file/d/1ItTW_Pw-x1zbPix6rG_ntZJ0IJ--SqWk/view?usp=sharing), and paste it in Code/Ujret-Backend-Node folder and then follow the steps below.
 
 ###### Run these commands one by one in the Node backend main Directory
 
@@ -195,66 +213,4 @@ First, Copy env from [here](https://drive.google.com/file/d/1ItTW_Pw-x1zbPix6rG_
 ```
 ```bash
   node index.js
-```
-
-### (3) Run Flask Backend Locally
-
-#### Getting Started
-
-Note: Make sure you have completed the Environment Setup, before proceeding.
-
-- Environment Setup
-  Install Postgres Sql Locally, setup its database
-  Install Datagrip to access databases because its accessible, create a project on datagrip using postgres sql as database.
-  Go to the backend/db/migrations/0-1.sql, copy the sql and paste it on new create project's console on datagrip
-  Run the Sql on console and the setup is done
-
-- To run backend follow the following steps.
-
-- Go to the backend directory
-
-```bash
-  cd Ujret-Backend-Flask
-```
-
-#### Database Setup
-
-- Add environment variables (get credentials from datagrip, rename file to .env)
-
-```bash
-DB_HOST=
-DB_NAME=
-DB_USER=
-DB_PASSWORD=
-DB_PORT=
-DB_CONNECT_TIMEOUT=
-```
-
-- Run SQL in DataGrip console (copy, paste and run)
-
-```text
-0-1.sql
-```
-
-#### Running Flask Server
-
-- Set up and activate virtual environment (optional)
-
-```bash
-  python3 -m venv venv
-  source venv/bin/activate
-```
-
-- Install dependencies
-
-```bash
-  cd backend
-  pip install -r requirements.txt
-```
-
-- Start the server
-
-```bash
-  // from backend directory
-  flask --app core.api.api  --debug run
 ```
